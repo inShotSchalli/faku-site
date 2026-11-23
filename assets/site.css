@@ -297,3 +297,7 @@ a{color:inherit}
 .hero__img--ny{background-image:url(img/hero-ny.jpg)}
 .shop{grid-template-columns:1fr 1fr}
 @media (max-width:960px){.shop{grid-template-columns:1fr}}
+
+/* Hinweis aus der Verwaltung */
+.hinweis-bar{background:var(--white);color:var(--black);font:700 14px/1.4 var(--mono);text-transform:uppercase;letter-spacing:.06em;padding:11px 0;text-align:center;border-bottom:1px solid var(--line)}
+.hinweis-bar[hidden]{display:none}
